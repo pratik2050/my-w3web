@@ -1,0 +1,68 @@
+body{
+    background-color:rgba(1, 1, 1, 0.8); 
+}
+a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: #ededed
+}
+.div1{
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+    padding: 100px 0px 10px 70px;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+h1{
+    color: azure;
+    font-family: 'Anton';
+    font-size: 50px;
+}
+p{
+    color: darkgray;
+    font-family: 'Caveat';
+    font-size: 25px;
+}
+img{
+    border-radius: 50%;
+}
+.info{
+    float: right;
+    padding: 100px 50px 0px 0px;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .div1{
+        animation: fadeIn linear 1.5s;
+        -webkit-animation: fadeIn linear 1.5s;
+        -moz-animation: fadeIn linear 1.5s;
+        -o-animation: fadeIn linear 1.5s;
+        -ms-animation: fadeIn linear 1.5s;
+        padding-top: 20px;
+        padding-left: 55px;
+    }
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    h1{
+        color: azure;
+        font-family: 'Anton';
+        font-size: 40px;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+    }
+}
